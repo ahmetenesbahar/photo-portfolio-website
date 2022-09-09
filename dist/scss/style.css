@@ -789,4 +789,82 @@ section.about .about-btn button {
 section.about .about-btn button:hover {
   background-color: #ee3e0d;
   color: #fff;
+}
+
+section.contact {
+  width: 100%;
+}
+section.contact .contact-texts {
+  width: 100%;
+}
+section.contact .contact-texts h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 2rem;
+  color: #000;
+}
+section.contact .contact-texts p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: gray;
+  font-size: 1.2rem;
+  padding: 4rem 30%;
+  text-align: center;
+}
+section.contact .form {
+  padding: 0 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+section.contact .form input {
+  border-color: transparent;
+  border-bottom: solid 2px #f4623a;
+  padding: 1rem;
+  width: 100%;
+  font-size: 1rem;
+}
+section.contact .form input:focus {
+  outline: none;
+}
+section.contact .form textarea {
+  border-color: transparent;
+  border-bottom: solid 2px #f4623a;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+}
+section.contact .form textarea:focus {
+  outline: none;
+}
+section.contact .form .btn-send {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  width: 100%;
+}
+section.contact .form .btn-send button {
+  padding: 1rem 2rem;
+  border: none;
+  background-color: #f4623a;
+  color: #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-radius: 32px;
+  padding: 1rem 2rem;
+  width: 100%;
+}
+section.contact .form .btn-send button:hover {
+  background-color: #e6e6e6;
+  color: #f4623a;
 }/*# sourceMappingURL=style.css.map */

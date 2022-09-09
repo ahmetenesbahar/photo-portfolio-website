@@ -1,0 +1,55 @@
+section.contact {
+  width: 100%;
+  .contact-texts {
+    width: 100%;
+    h3 {
+      @include flex;
+      font-size: 2rem;
+      color: $black;
+    }
+    p {
+      @include flex($direction: column);
+      color: $dark-gray;
+      font-size: 1.2rem;
+      padding: 4rem 30%;
+      text-align: center;
+    }
+  }
+
+  .form {
+    padding: 0 30%;
+    @include flex($direction: column);
+
+    input {
+      border-color: transparent;
+      border-bottom: solid 2px $orange;
+      padding: $paddingSm;
+      width: 100%;
+      font-size: 1rem;
+
+      &:focus {
+        outline: none;
+      }
+    }
+    textarea {
+      border-color: transparent;
+      border-bottom: solid 2px $orange;
+      width: 100%;
+      padding: $paddingSm;
+      font-size: 1rem;
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .btn-send {
+      padding: $paddingSm;
+      @include flex($justify: flex-start);
+      width: 100%;
+      button {
+        @include button;
+        width: 100%;
+      }
+    }
+  }
+}
