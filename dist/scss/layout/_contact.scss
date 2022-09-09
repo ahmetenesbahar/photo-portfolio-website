@@ -2,6 +2,7 @@ section.contact {
   width: 100%;
   .contact-texts {
     width: 100%;
+    padding-top: 5rem;
     h3 {
       @include flex;
       font-size: 2rem;

@@ -21,5 +21,8 @@ nav {
       letter-spacing: 0.06rem;
       text-transform: uppercase;
     }
+    li.active a {
+      color: $orange !important;
+    }
   }
 }

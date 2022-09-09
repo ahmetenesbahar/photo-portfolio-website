@@ -18,3 +18,25 @@ body {
 section {
   padding: $headerHeight 0 !important;
 }
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: $white;
+  transition: $transition;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  max-width: 1920px;
+  width: 100%;
+  border-bottom: 1px solid $black;
+  margin: 0 auto;
+  padding: 0.5rem 20rem;
+  .brand-logo {
+    a {
+      color: $black !important;
+    }
+  }
+  a {
+    color: $black !important;
+  }
+}

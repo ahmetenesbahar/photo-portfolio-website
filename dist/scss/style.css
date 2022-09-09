@@ -18,6 +18,27 @@ section {
   padding: 100px 0 !important;
 }
 
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  max-width: 1920px;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  margin: 0 auto;
+  padding: 0.5rem 20rem;
+}
+.sticky .brand-logo a {
+  color: #000 !important;
+}
+.sticky a {
+  color: #000 !important;
+}
+
 html,
 body,
 div,
@@ -188,6 +209,9 @@ nav ul li a {
   font-weight: 800;
   letter-spacing: 0.06rem;
   text-transform: uppercase;
+}
+nav ul li.active a {
+  color: #f4623a !important;
 }
 
 header {
@@ -807,6 +831,7 @@ section.contact {
 }
 section.contact .contact-texts {
   width: 100%;
+  padding-top: 5rem;
 }
 section.contact .contact-texts h3 {
   display: flex;
