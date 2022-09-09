@@ -437,20 +437,20 @@ section.portfolio .portfolio-row-1 .card-1:hover .overlay {
   opacity: 0.8;
   cursor: pointer;
 }
-section.portfolio .card-2 {
+section.portfolio .portfolio-row-1 .card-2 {
   width: 613px;
   height: 330px;
   -o-object-fit: cover;
      object-fit: cover;
   position: relative;
 }
-section.portfolio .card-2 img {
+section.portfolio .portfolio-row-1 .card-2 img {
   width: 613px;
   height: 330px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-section.portfolio .card-2 .overlay {
+section.portfolio .portfolio-row-1 .card-2 .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -462,7 +462,7 @@ section.portfolio .card-2 .overlay {
   transition: 0.5s ease;
   background-color: #f4623a;
 }
-section.portfolio .card-2 .overlay p {
+section.portfolio .portfolio-row-1 .card-2 .overlay p {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -473,7 +473,7 @@ section.portfolio .card-2 .overlay p {
   font-size: 1.3rem;
   color: #fff;
 }
-section.portfolio .card-2 .overlay p small {
+section.portfolio .portfolio-row-1 .card-2 .overlay p small {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -484,24 +484,24 @@ section.portfolio .card-2 .overlay p small {
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.75) !important;
 }
-section.portfolio .card-2:hover .overlay {
+section.portfolio .portfolio-row-1 .card-2:hover .overlay {
   opacity: 0.8;
   cursor: pointer;
 }
-section.portfolio .card-3 {
+section.portfolio .portfolio-row-1 .card-3 {
   width: 613px;
   height: 330px;
   -o-object-fit: cover;
      object-fit: cover;
   position: relative;
 }
-section.portfolio .card-3 img {
+section.portfolio .portfolio-row-1 .card-3 img {
   width: 613px;
   height: 330px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-section.portfolio .card-3 .overlay {
+section.portfolio .portfolio-row-1 .card-3 .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -513,7 +513,7 @@ section.portfolio .card-3 .overlay {
   transition: 0.5s ease;
   background-color: #f4623a;
 }
-section.portfolio .card-3 .overlay p {
+section.portfolio .portfolio-row-1 .card-3 .overlay p {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -524,7 +524,7 @@ section.portfolio .card-3 .overlay p {
   font-size: 1.3rem;
   color: #fff;
 }
-section.portfolio .card-3 .overlay p small {
+section.portfolio .portfolio-row-1 .card-3 .overlay p small {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -535,32 +535,31 @@ section.portfolio .card-3 .overlay p small {
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.75) !important;
 }
-section.portfolio .card-3:hover .overlay {
+section.portfolio .portfolio-row-1 .card-3:hover .overlay {
   opacity: 0.8;
   cursor: pointer;
 }
-
-.portfolio-row-2 {
+section.portfolio .portfolio-row-2 {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: flex-start;
   width: 100%;
 }
-.portfolio-row-2 .card-4 {
+section.portfolio .portfolio-row-2 .card-4 {
   width: 613px;
   height: 330px;
   -o-object-fit: cover;
      object-fit: cover;
   position: relative;
 }
-.portfolio-row-2 .card-4 img {
+section.portfolio .portfolio-row-2 .card-4 img {
   width: 613px;
   height: 330px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.portfolio-row-2 .card-4 .overlay {
+section.portfolio .portfolio-row-2 .card-4 .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -572,7 +571,7 @@ section.portfolio .card-3:hover .overlay {
   transition: 0.5s ease;
   background-color: #f4623a;
 }
-.portfolio-row-2 .card-4 .overlay p {
+section.portfolio .portfolio-row-2 .card-4 .overlay p {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -583,7 +582,7 @@ section.portfolio .card-3:hover .overlay {
   font-size: 1.3rem;
   color: #fff;
 }
-.portfolio-row-2 .card-4 .overlay p small {
+section.portfolio .portfolio-row-2 .card-4 .overlay p small {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -594,24 +593,24 @@ section.portfolio .card-3:hover .overlay {
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.75) !important;
 }
-.portfolio-row-2 .card-4:hover .overlay {
+section.portfolio .portfolio-row-2 .card-4:hover .overlay {
   opacity: 0.8;
   cursor: pointer;
 }
-.portfolio-row-2 .card-5 {
+section.portfolio .portfolio-row-2 .card-5 {
   width: 613px;
   height: 330px;
   -o-object-fit: cover;
      object-fit: cover;
   position: relative;
 }
-.portfolio-row-2 .card-5 img {
+section.portfolio .portfolio-row-2 .card-5 img {
   width: 613px;
   height: 330px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.portfolio-row-2 .card-5 .overlay {
+section.portfolio .portfolio-row-2 .card-5 .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -623,7 +622,7 @@ section.portfolio .card-3:hover .overlay {
   transition: 0.5s ease;
   background-color: #f4623a;
 }
-.portfolio-row-2 .card-5 .overlay p {
+section.portfolio .portfolio-row-2 .card-5 .overlay p {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -634,7 +633,7 @@ section.portfolio .card-3:hover .overlay {
   font-size: 1.3rem;
   color: #fff;
 }
-.portfolio-row-2 .card-5 .overlay p small {
+section.portfolio .portfolio-row-2 .card-5 .overlay p small {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -645,24 +644,24 @@ section.portfolio .card-3:hover .overlay {
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.75) !important;
 }
-.portfolio-row-2 .card-5:hover .overlay {
+section.portfolio .portfolio-row-2 .card-5:hover .overlay {
   opacity: 0.8;
   cursor: pointer;
 }
-.portfolio-row-2 .card-6 {
+section.portfolio .portfolio-row-2 .card-6 {
   width: 613px;
   height: 330px;
   -o-object-fit: cover;
      object-fit: cover;
   position: relative;
 }
-.portfolio-row-2 .card-6 img {
+section.portfolio .portfolio-row-2 .card-6 img {
   width: 613px;
   height: 330px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.portfolio-row-2 .card-6 .overlay {
+section.portfolio .portfolio-row-2 .card-6 .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -674,7 +673,7 @@ section.portfolio .card-3:hover .overlay {
   transition: 0.5s ease;
   background-color: #f4623a;
 }
-.portfolio-row-2 .card-6 .overlay p {
+section.portfolio .portfolio-row-2 .card-6 .overlay p {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -685,7 +684,7 @@ section.portfolio .card-3:hover .overlay {
   font-size: 1.3rem;
   color: #fff;
 }
-.portfolio-row-2 .card-6 .overlay p small {
+section.portfolio .portfolio-row-2 .card-6 .overlay p small {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -696,9 +695,49 @@ section.portfolio .card-3:hover .overlay {
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.75) !important;
 }
-.portfolio-row-2 .card-6:hover .overlay {
+section.portfolio .portfolio-row-2 .card-6:hover .overlay {
   opacity: 0.8;
   cursor: pointer;
+}
+section.portfolio .download {
+  width: 100%;
+  background-color: #212529;
+}
+section.portfolio .download .download-h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 7rem 7rem 0.5rem 7rem;
+}
+section.portfolio .download .download-h3 h3 {
+  color: #fff;
+  font-size: 2rem;
+}
+section.portfolio .download .download-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  padding: 2rem 5rem 8rem 5rem;
+}
+section.portfolio .download .download-btn button {
+  padding: 1rem 2rem;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-radius: 32px;
+  padding: 1rem 2rem;
+}
+section.portfolio .download .download-btn button:hover {
+  background-color: black;
+  color: #fff;
 }
 
 section.about {
