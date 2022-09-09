@@ -1,11 +1,18 @@
 section.portfolio {
   padding: 0px !important;
   .portfolio-row-1 {
-    @include flex;
+    @include flex($direction: flex-start);
     width: 100%;
     .card-1 {
       width: 613px;
-      height: 350px;
+      height: 330px;
+      object-fit: cover;
+      position: relative;
+      img {
+        width: 613px;
+        height: 330px;
+        object-fit: cover;
+      }
       .overlay {
         position: absolute;
         top: 0;
@@ -18,41 +25,246 @@ section.portfolio {
         transition: 0.5s ease;
         background-color: $orange;
         p {
-          @include flex;
+          @include flex($direction: column);
           color: $white;
-          width: 400px;
-          height: 289px;
-          font-size: 5rem;
+          width: 613px;
+          height: 330px;
+          font-size: 1.3rem;
+          color: $white;
+          small {
+            @include flex;
+            width: 100%;
+            padding: 0.5rem;
+            text-align: center;
+            font-size: 1rem;
+            color: $gray;
+          }
+        }
+      }
+      &:hover .overlay {
+        opacity: 0.8;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .card-2 {
+    width: 613px;
+    height: 330px;
+    object-fit: cover;
+    position: relative;
+    img {
+      width: 613px;
+      height: 330px;
+      object-fit: cover;
+    }
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: 0.5s ease;
+      background-color: $orange;
+      p {
+        @include flex($direction: column);
+        color: $white;
+        width: 613px;
+        height: 330px;
+        font-size: 1.3rem;
+        color: $white;
+        small {
+          @include flex;
+          width: 100%;
+          padding: 0.5rem;
+          text-align: center;
+          font-size: 1rem;
+          color: $gray;
         }
       }
     }
-    .card-1:hover .overlay {
+    &:hover .overlay {
       opacity: 0.8;
       cursor: pointer;
     }
-    .card-2 {
+  }
+  .card-3 {
+    width: 613px;
+    height: 330px;
+    object-fit: cover;
+    position: relative;
+    img {
       width: 613px;
-      height: 350px;
+      height: 330px;
+      object-fit: cover;
     }
-    .card-3 {
-      width: 613px;
-      height: 350px;
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: 0.5s ease;
+      background-color: $orange;
+      p {
+        @include flex($direction: column);
+        color: $white;
+        width: 613px;
+        height: 330px;
+        font-size: 1.3rem;
+        color: $white;
+        small {
+          @include flex;
+          width: 100%;
+          padding: 0.5rem;
+          text-align: center;
+          font-size: 1rem;
+          color: $gray;
+        }
+      }
+    }
+    &:hover .overlay {
+      opacity: 0.8;
+      cursor: pointer;
     }
   }
-  .portfolio-row-2 {
-    @include flex;
-    width: 100%;
-    .card-4 {
+}
+.portfolio-row-2 {
+  @include flex($direction: flex-start);
+  width: 100%;
+  .card-4 {
+    width: 613px;
+    height: 330px;
+    object-fit: cover;
+    position: relative;
+    img {
       width: 613px;
-      height: 350px;
+      height: 330px;
+      object-fit: cover;
     }
-    .card-5 {
-      width: 613px;
-      height: 350px;
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: 0.5s ease;
+      background-color: $orange;
+      p {
+        @include flex($direction: column);
+        color: $white;
+        width: 613px;
+        height: 330px;
+        font-size: 1.3rem;
+        color: $white;
+        small {
+          @include flex;
+          width: 100%;
+          padding: 0.5rem;
+          text-align: center;
+          font-size: 1rem;
+          color: $gray;
+        }
+      }
     }
-    .card-6 {
+    &:hover .overlay {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+  }
+  .card-5 {
+    width: 613px;
+    height: 330px;
+    object-fit: cover;
+    position: relative;
+    img {
       width: 613px;
-      height: 350px;
+      height: 330px;
+      object-fit: cover;
+    }
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: 0.5s ease;
+      background-color: $orange;
+      p {
+        @include flex($direction: column);
+        color: $white;
+        width: 613px;
+        height: 330px;
+        font-size: 1.3rem;
+        color: $white;
+        small {
+          @include flex;
+          width: 100%;
+          padding: 0.5rem;
+          text-align: center;
+          font-size: 1rem;
+          color: $gray;
+        }
+      }
+    }
+    &:hover .overlay {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+  }
+  .card-6 {
+    width: 613px;
+    height: 330px;
+    object-fit: cover;
+    position: relative;
+    img {
+      width: 613px;
+      height: 330px;
+      object-fit: cover;
+    }
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: 0.5s ease;
+      background-color: $orange;
+      p {
+        @include flex($direction: column);
+        color: $white;
+        width: 613px;
+        height: 330px;
+        font-size: 1.3rem;
+        color: $white;
+        small {
+          @include flex;
+          width: 100%;
+          padding: 0.5rem;
+          text-align: center;
+          font-size: 1rem;
+          color: $gray;
+        }
+      }
+    }
+    &:hover .overlay {
+      opacity: 0.8;
+      cursor: pointer;
     }
   }
 }
