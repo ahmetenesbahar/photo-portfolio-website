@@ -1,0 +1,33 @@
+section.about {
+  width: 100%;
+  margin-top: 50rem;
+  background-color: $orange;
+  .about-h3 {
+    @include flex;
+    width: 100%;
+    padding: 6rem 0 3rem 0;
+
+    h3 {
+      color: $white;
+      font-size: 2rem;
+    }
+  }
+  .about-p {
+    width: 100%;
+    padding: 0 8% 0 8%;
+
+    p {
+      padding: 0 25%;
+      color: $gray;
+    }
+  }
+
+  .about-btn {
+    @include flex;
+    width: 100%;
+    padding: 2rem;
+    button {
+      @include button($bg-color: $white, $color: $orange);
+    }
+  }
+}

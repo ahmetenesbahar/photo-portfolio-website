@@ -1,0 +1,80 @@
+section.services {
+  width: 100%;
+  background-color: $white;
+  .services-h3 {
+    @include flex;
+    width: 100%;
+    padding: 1rem 0 2.5rem 0;
+
+    h3 {
+      color: $black;
+      font-size: 2rem;
+    }
+  }
+  .services-row {
+    @include flex;
+    width: 100%;
+    color: $black;
+    padding: 2rem 10% 0 10%;
+    .card-1 {
+      padding: 2rem;
+      h4 {
+        width: 100%;
+        font-size: 1.3rem;
+        text-align: center;
+      }
+      p {
+        @include flex($direction: column);
+        width: 100%;
+        padding: 1rem 10% 0 10%;
+        text-align: center;
+        color: $dark-gray;
+      }
+    }
+    .card-2 {
+      padding: 2rem;
+      h4 {
+        width: 100%;
+        font-size: 1.3rem;
+        text-align: center;
+      }
+      p {
+        @include flex($direction: column);
+        width: 100%;
+        padding: 1rem 10% 0 10%;
+        text-align: center;
+        color: $dark-gray;
+      }
+    }
+    .card-3 {
+      padding: 2rem;
+      h4 {
+        width: 100%;
+        font-size: 1.3rem;
+        text-align: center;
+      }
+      p {
+        @include flex($direction: column);
+        width: 100%;
+        padding: 1rem 10% 0 10%;
+        text-align: center;
+        color: $dark-gray;
+      }
+    }
+    .card-4 {
+      padding: 2rem;
+      h4 {
+        width: 100%;
+        font-size: 1.3rem;
+        text-align: center;
+      }
+      p {
+        @include flex($direction: column);
+        width: 100%;
+        padding: 1rem 10% 0 10%;
+        text-align: center;
+        color: $dark-gray;
+      }
+    }
+  }
+}

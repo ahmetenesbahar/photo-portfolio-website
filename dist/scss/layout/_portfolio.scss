@@ -1,0 +1,58 @@
+section.portfolio {
+  padding: 0px !important;
+  .portfolio-row-1 {
+    @include flex;
+    width: 100%;
+    .card-1 {
+      width: 613px;
+      height: 350px;
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: 0.5s ease;
+        background-color: $orange;
+        p {
+          @include flex;
+          color: $white;
+          width: 400px;
+          height: 289px;
+          font-size: 5rem;
+        }
+      }
+    }
+    .card-1:hover .overlay {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+    .card-2 {
+      width: 613px;
+      height: 350px;
+    }
+    .card-3 {
+      width: 613px;
+      height: 350px;
+    }
+  }
+  .portfolio-row-2 {
+    @include flex;
+    width: 100%;
+    .card-4 {
+      width: 613px;
+      height: 350px;
+    }
+    .card-5 {
+      width: 613px;
+      height: 350px;
+    }
+    .card-6 {
+      width: 613px;
+      height: 350px;
+    }
+  }
+}
