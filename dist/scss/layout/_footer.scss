@@ -1,0 +1,7 @@
+footer {
+  @include flex;
+  width: 100%;
+  padding: 3rem;
+  background-color: $dark-gray;
+  color: $white;
+}
